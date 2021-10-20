@@ -6,7 +6,7 @@ import org.testng.annotations.AfterClass;
 
 public class NewTest {
   @Test
-  public void f() {
+  public void TC1() {
   }
   @BeforeClass
   public void beforeClass() {
