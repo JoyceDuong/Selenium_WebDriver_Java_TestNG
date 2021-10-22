@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9786" started-at="2021-10-22T07:17:10Z" finished-at="2021-10-22T07:17:20Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9786" started-at="2021-10-22T07:17:10Z" finished-at="2021-10-22T07:17:20Z">
+      <class name="webdriver.NewTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:webdriver.NewTest@548b7f67]" name="beforeClass" is-config="true" duration-ms="5088" started-at="2021-10-22T14:17:10Z" finished-at="2021-10-22T14:17:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="By_ID()[pri:0, instance:webdriver.NewTest@548b7f67]" name="By_ID" duration-ms="4408" started-at="2021-10-22T14:17:15Z" finished-at="2021-10-22T14:17:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- By_ID -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:webdriver.NewTest@548b7f67]" name="afterClass" is-config="true" duration-ms="283" started-at="2021-10-22T14:17:19Z" finished-at="2021-10-22T14:17:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- webdriver.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
