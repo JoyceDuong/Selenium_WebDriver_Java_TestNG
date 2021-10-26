@@ -78,7 +78,7 @@ public class Topic_Xpath_Technical_01 {
 		// click on register button
 		driver.findElement(By.xpath("//button[@class='btn_pink_sm fs16']")).click();
 
-		Assert.assertEquals(driver.findElement(By.id("txtEmail-error")).getText(), "Vui lòng nhập email hợp lệ");
+		Assert.assertEquals(driver.findElement(By.id("txtEmail-error")).getText(), "Vui lòng nhập email hợp");
 		// Assert.assertEquals(driver.findElement(By.id("txtCEmail-error")).getText(),
 		// "Email nhập lại không đúng");
 
