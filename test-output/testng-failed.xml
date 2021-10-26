@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="webdriver.NewTest">
+      <class name="webdriver.Topic04_Xpath_Technical02">
         <methods>
-          <include name="beforeClass"/>
           <include name="afterClass"/>
-          <include name="By_ID"/>
+          <include name="TC01_Login_Empty_Filed"/>
+          <include name="beforeClass"/>
         </methods>
-      </class> <!-- webdriver.NewTest -->
+      </class> <!-- webdriver.Topic04_Xpath_Technical02 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
