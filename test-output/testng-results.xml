@@ -1,69 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="44779" started-at="2021-10-26T08:02:01Z" finished-at="2021-10-26T08:02:46Z">
+  <suite name="Default suite" duration-ms="36269" started-at="2021-10-27T06:39:31Z" finished-at="2021-10-27T06:40:07Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="44779" started-at="2021-10-26T08:02:01Z" finished-at="2021-10-26T08:02:46Z">
-      <class name="webdriver.Topic04_Xpath_Technical02">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:webdriver.Topic04_Xpath_Technical02@9629756]" name="beforeClass" is-config="true" duration-ms="4416" started-at="2021-10-26T15:02:01Z" finished-at="2021-10-26T15:02:06Z">
+    <test name="Default test" duration-ms="36269" started-at="2021-10-27T06:39:31Z" finished-at="2021-10-27T06:40:07Z">
+      <class name="webdriver.Topic_Xpath_Technical_02">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:webdriver.Topic_Xpath_Technical_02@9629756]" name="beforeClass" is-config="true" duration-ms="19726" started-at="2021-10-27T13:39:31Z" finished-at="2021-10-27T13:39:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:webdriver.Topic04_Xpath_Technical02@9629756]" name="beforeMethod" is-config="true" duration-ms="20694" started-at="2021-10-26T15:02:06Z" finished-at="2021-10-26T15:02:27Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:webdriver.Topic_Xpath_Technical_02@9629756]" name="beforeMethod" is-config="true" duration-ms="1901" started-at="2021-10-27T13:39:51Z" finished-at="2021-10-27T13:39:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="TC01_Login_Empty_Filed()[pri:0, instance:webdriver.Topic04_Xpath_Technical02@9629756]" name="TC01_Login_Empty_Filed" duration-ms="230" started-at="2021-10-26T15:02:27Z" finished-at="2021-10-26T15:02:27Z">
+        <test-method status="PASS" signature="TC01_Login_Empty_Filed()[pri:0, instance:webdriver.Topic_Xpath_Technical_02@9629756]" name="TC01_Login_Empty_Filed" duration-ms="108" started-at="2021-10-27T13:39:52Z" finished-at="2021-10-27T13:39:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC01_Login_Empty_Filed -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:webdriver.Topic04_Xpath_Technical02@9629756]" name="beforeMethod" is-config="true" duration-ms="1411" started-at="2021-10-26T15:02:27Z" finished-at="2021-10-26T15:02:28Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:webdriver.Topic_Xpath_Technical_02@9629756]" name="beforeMethod" is-config="true" duration-ms="1741" started-at="2021-10-27T13:39:53Z" finished-at="2021-10-27T13:39:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="TC02_Login_Invalid_Email()[pri:0, instance:webdriver.Topic04_Xpath_Technical02@9629756]" name="TC02_Login_Invalid_Email" duration-ms="599" started-at="2021-10-26T15:02:28Z" finished-at="2021-10-26T15:02:29Z">
+        <test-method status="PASS" signature="TC02_Login_Invalid_Email()[pri:0, instance:webdriver.Topic_Xpath_Technical_02@9629756]" name="TC02_Login_Invalid_Email" duration-ms="187" started-at="2021-10-27T13:39:54Z" finished-at="2021-10-27T13:39:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC02_Login_Invalid_Email -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:webdriver.Topic04_Xpath_Technical02@9629756]" name="beforeMethod" is-config="true" duration-ms="59" started-at="2021-10-26T15:02:29Z" finished-at="2021-10-26T15:02:29Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:webdriver.Topic_Xpath_Technical_02@9629756]" name="beforeMethod" is-config="true" duration-ms="1771" started-at="2021-10-27T13:39:54Z" finished-at="2021-10-27T13:39:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="TC03_Login_Incorrrect_confirm_email()[pri:0, instance:webdriver.Topic04_Xpath_Technical02@9629756]" name="TC03_Login_Incorrrect_confirm_email" duration-ms="1987" started-at="2021-10-26T15:02:29Z" finished-at="2021-10-26T15:02:31Z">
+        <test-method status="PASS" signature="TC03_Login_Pass_lessthan_6()[pri:0, instance:webdriver.Topic_Xpath_Technical_02@9629756]" name="TC03_Login_Pass_lessthan_6" duration-ms="155" started-at="2021-10-27T13:39:56Z" finished-at="2021-10-27T13:39:56Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC03_Login_Incorrrect_confirm_email -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:webdriver.Topic04_Xpath_Technical02@9629756]" name="beforeMethod" is-config="true" duration-ms="1226" started-at="2021-10-26T15:02:31Z" finished-at="2021-10-26T15:02:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="TC04_Login_Pass_Lessthan_6()[pri:0, instance:webdriver.Topic04_Xpath_Technical02@9629756]" name="TC04_Login_Pass_Lessthan_6" duration-ms="325" started-at="2021-10-26T15:02:32Z" finished-at="2021-10-26T15:02:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC04_Login_Pass_Lessthan_6 -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:webdriver.Topic04_Xpath_Technical02@9629756]" name="beforeMethod" is-config="true" duration-ms="11" started-at="2021-10-26T15:02:32Z" finished-at="2021-10-26T15:02:32Z">
+        </test-method> <!-- TC03_Login_Pass_lessthan_6 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:webdriver.Topic_Xpath_Technical_02@9629756]" name="beforeMethod" is-config="true" duration-ms="2876" started-at="2021-10-27T13:39:56Z" finished-at="2021-10-27T13:39:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="TC05_Login_Incorrrect_confirm_Pass()[pri:0, instance:webdriver.Topic04_Xpath_Technical02@9629756]" name="TC05_Login_Incorrrect_confirm_Pass" duration-ms="11571" started-at="2021-10-26T15:02:32Z" finished-at="2021-10-26T15:02:44Z">
+        <test-method status="PASS" signature="TC04_Login_Incorrect_Account()[pri:0, instance:webdriver.Topic_Xpath_Technical_02@9629756]" name="TC04_Login_Incorrect_Account" duration-ms="1751" started-at="2021-10-27T13:39:59Z" finished-at="2021-10-27T13:40:01Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC05_Login_Incorrrect_confirm_Pass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:webdriver.Topic04_Xpath_Technical02@9629756]" name="beforeMethod" is-config="true" duration-ms="1594" started-at="2021-10-26T15:02:44Z" finished-at="2021-10-26T15:02:46Z">
+        </test-method> <!-- TC04_Login_Incorrect_Account -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:webdriver.Topic_Xpath_Technical_02@9629756]" name="beforeMethod" is-config="true" duration-ms="1914" started-at="2021-10-27T13:40:01Z" finished-at="2021-10-27T13:40:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="TC06_Login_Invalid_Phone()[pri:0, instance:webdriver.Topic04_Xpath_Technical02@9629756]" name="TC06_Login_Invalid_Phone" duration-ms="311" started-at="2021-10-26T15:02:46Z" finished-at="2021-10-26T15:02:46Z">
+        <test-method status="PASS" signature="TC05_Create_New_Account()[pri:0, instance:webdriver.Topic_Xpath_Technical_02@9629756]" name="TC05_Create_New_Account" duration-ms="3824" started-at="2021-10-27T13:40:03Z" finished-at="2021-10-27T13:40:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC06_Login_Invalid_Phone -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:webdriver.Topic04_Xpath_Technical02@9629756]" name="afterClass" is-config="true" duration-ms="334" started-at="2021-10-26T15:02:46Z" finished-at="2021-10-26T15:02:46Z">
+        </test-method> <!-- TC05_Create_New_Account -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:webdriver.Topic_Xpath_Technical_02@9629756]" name="afterClass" is-config="true" duration-ms="305" started-at="2021-10-27T13:40:07Z" finished-at="2021-10-27T13:40:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- webdriver.Topic04_Xpath_Technical02 -->
+      </class> <!-- webdriver.Topic_Xpath_Technical_02 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
