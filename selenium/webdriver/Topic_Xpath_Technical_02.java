@@ -1,6 +1,7 @@
 package webdriver;
 
 import java.util.Random;
+
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -29,7 +30,7 @@ public class Topic_Xpath_Technical_02 {
 
 	@BeforeClass
 	public void beforeClass() {
-
+		System.setProperty("webdriver.gecko.driver", ".\\BrowserDriver\\geckodriver.exe");
 		driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
@@ -106,12 +107,12 @@ public class Topic_Xpath_Technical_02 {
 		driver.findElement(By.xpath("//input[@id='email_address']")).sendKeys(getRandomEmail());
 		driver.findElement(By.xpath("//input[@id='password']")).sendKeys("MInhhieu123");
 		driver.findElement(By.xpath("//input[@id='confirmation']")).sendKeys("MInhhieu123");
-		
-		driver.findElement(By.xpath("//button[@class='button' and @title='Register']")).click();
-		
-		Assert.assertEquals(driver.findElement(By.xpath("//span[contains(text(),'Thank you for registering')]")).getText(),
-				"Thank you for registering with Main Website Store.");
 
+		driver.findElement(By.xpath("//button[@class='button' and @title='Register']")).click();
+
+		Assert.assertEquals(
+				driver.findElement(By.xpath("//span[contains(text(),'Thank you for registering')]")).getText(),
+				"Thank you for registering with Main Website Store.");
 
 	}
 

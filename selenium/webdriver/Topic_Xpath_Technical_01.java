@@ -28,6 +28,10 @@ public class Topic_Xpath_Technical_01 {
 
 	@BeforeClass
 	public void beforeClass() {
+		
+		//Gecko Driver
+		System.setProperty("webdriver.gecko.driver",".\\BrowserDriver\\geckodriver.exe");
+		
 		driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
