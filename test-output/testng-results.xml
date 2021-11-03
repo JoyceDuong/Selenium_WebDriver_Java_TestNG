@@ -1,110 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-28T07:33:26Z" name="Default suite" finished-at="2021-10-28T07:33:46Z" duration-ms="20243">
+  <suite name="Default suite" duration-ms="13849" started-at="2021-11-03T16:34:51Z" finished-at="2021-11-03T16:35:05Z">
     <groups>
     </groups>
-    <test started-at="2021-10-28T07:33:26Z" name="Default test" finished-at="2021-10-28T07:33:46Z" duration-ms="20243">
-      <class name="webdriver.Topic_Xpath_Technical_01">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:webdriver.Topic_Xpath_Technical_01@2aceadd4]" started-at="2021-10-28T07:33:26Z" name="beforeClass" finished-at="2021-10-28T07:33:32Z" duration-ms="5995" status="PASS">
+    <test name="Default test" duration-ms="13849" started-at="2021-11-03T16:34:51Z" finished-at="2021-11-03T16:35:05Z">
+      <class name="webdriver.Topic_Web_Element_Password_Validate">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:webdriver.Topic_Web_Element_Password_Validate@5d5eef3d]" name="beforeClass" is-config="true" duration-ms="9501" started-at="2021-11-03T16:34:51Z" finished-at="2021-11-03T16:35:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:webdriver.Topic_Xpath_Technical_01@2aceadd4]" started-at="2021-10-28T07:33:32Z" name="beforeMethod" finished-at="2021-10-28T07:33:33Z" duration-ms="1080" status="PASS">
+        <test-method status="PASS" signature="TC01()[pri:0, instance:webdriver.Topic_Web_Element_Password_Validate@5d5eef3d]" name="TC01" duration-ms="3367" started-at="2021-11-03T16:35:01Z" finished-at="2021-11-03T16:35:04Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="TC01_Login_Empty_Filed()[pri:0, instance:webdriver.Topic_Xpath_Technical_01@2aceadd4]" started-at="2021-10-28T07:33:33Z" name="TC01_Login_Empty_Filed" finished-at="2021-10-28T07:33:33Z" duration-ms="337" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC01_Login_Empty_Filed -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:webdriver.Topic_Xpath_Technical_01@2aceadd4]" started-at="2021-10-28T07:33:33Z" name="beforeMethod" finished-at="2021-10-28T07:33:35Z" duration-ms="2168" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="TC02_Login_Invalid_Email()[pri:0, instance:webdriver.Topic_Xpath_Technical_01@2aceadd4]" started-at="2021-10-28T07:33:35Z" name="TC02_Login_Invalid_Email" finished-at="2021-10-28T07:33:36Z" duration-ms="364" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Vui lòng nhập email hợp] but found [Vui lòng nhập email hợp lệ]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Vui lòng nhập email hợp] but found [Vui lòng nhập email hợp lệ]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:453)
-at org.testng.Assert.assertEquals(Assert.java:463)
-at webdriver.Topic_Xpath_Technical_01.TC02_Login_Invalid_Email(Topic_Xpath_Technical_01.java:85)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC02_Login_Invalid_Email -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:webdriver.Topic_Xpath_Technical_01@2aceadd4]" started-at="2021-10-28T07:33:36Z" name="beforeMethod" finished-at="2021-10-28T07:33:37Z" duration-ms="1831" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="TC03_Login_Incorrrect_confirm_email()[pri:0, instance:webdriver.Topic_Xpath_Technical_01@2aceadd4]" started-at="2021-10-28T07:33:37Z" name="TC03_Login_Incorrrect_confirm_email" finished-at="2021-10-28T07:33:38Z" duration-ms="363" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC03_Login_Incorrrect_confirm_email -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:webdriver.Topic_Xpath_Technical_01@2aceadd4]" started-at="2021-10-28T07:33:38Z" name="beforeMethod" finished-at="2021-10-28T07:33:39Z" duration-ms="1706" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="TC04_Login_Pass_Lessthan_6()[pri:0, instance:webdriver.Topic_Xpath_Technical_01@2aceadd4]" started-at="2021-10-28T07:33:39Z" name="TC04_Login_Pass_Lessthan_6" finished-at="2021-10-28T07:33:40Z" duration-ms="359" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC04_Login_Pass_Lessthan_6 -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:webdriver.Topic_Xpath_Technical_01@2aceadd4]" started-at="2021-10-28T07:33:40Z" name="beforeMethod" finished-at="2021-10-28T07:33:42Z" duration-ms="2091" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="TC05_Login_Incorrrect_confirm_Pass()[pri:0, instance:webdriver.Topic_Xpath_Technical_01@2aceadd4]" started-at="2021-10-28T07:33:42Z" name="TC05_Login_Incorrrect_confirm_Pass" finished-at="2021-10-28T07:33:42Z" duration-ms="363" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC05_Login_Incorrrect_confirm_Pass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:webdriver.Topic_Xpath_Technical_01@2aceadd4]" started-at="2021-10-28T07:33:42Z" name="beforeMethod" finished-at="2021-10-28T07:33:44Z" duration-ms="1656" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="TC06_Login_Invalid_Phone()[pri:0, instance:webdriver.Topic_Xpath_Technical_01@2aceadd4]" started-at="2021-10-28T07:33:44Z" name="TC06_Login_Invalid_Phone" finished-at="2021-10-28T07:33:45Z" duration-ms="830" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC06_Login_Invalid_Phone -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:webdriver.Topic_Xpath_Technical_01@2aceadd4]" started-at="2021-10-28T07:33:45Z" name="afterClass" finished-at="2021-10-28T07:33:46Z" duration-ms="1082" status="PASS">
+        </test-method> <!-- TC01 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:webdriver.Topic_Web_Element_Password_Validate@5d5eef3d]" name="afterClass" is-config="true" duration-ms="965" started-at="2021-11-03T16:35:04Z" finished-at="2021-11-03T16:35:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- webdriver.Topic_Xpath_Technical_01 -->
+      </class> <!-- webdriver.Topic_Web_Element_Password_Validate -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
