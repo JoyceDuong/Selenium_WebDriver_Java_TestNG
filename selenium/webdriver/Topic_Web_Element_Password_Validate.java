@@ -24,8 +24,7 @@ public class Topic_Web_Element_Password_Validate {
 		Assert.assertTrue(driver.findElement(By.xpath("//li[@class='number-char completed' and text()='One number']")).isDisplayed());
 		Assert.assertFalse(driver.findElement(By.xpath("//button[@id='create-account']")).isEnabled());
 		
-		// nhập chữ thường
-		
+		// nhập chữ thường		
 		driver.findElement(By.id("new_password")).clear();
 		driver.findElement(By.id("new_password")).sendKeys("a");
 		Assert.assertTrue(driver.findElement(By.xpath("//li[@class='lowercase-char completed' and text()='One lowercase character']")).isDisplayed()); //
