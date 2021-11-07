@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
       <class name="webdriver.Topic_Textbox_Textarea">
         <methods>
-          <include name="TC_02_Login"/>
           <include name="afterClass"/>
+          <include name="TC_03_New_Customer"/>
+          <include name="TC_01_Edit_Customer"/>
           <include name="beforeClass"/>
         </methods>
       </class> <!-- webdriver.Topic_Textbox_Textarea -->
