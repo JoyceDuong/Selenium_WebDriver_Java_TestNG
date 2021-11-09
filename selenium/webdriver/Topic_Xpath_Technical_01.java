@@ -13,10 +13,10 @@ import org.testng.annotations.Test;
 public class Topic_Xpath_Technical_01 {
 	WebDriver driver;
 	String name, email, re_email, pass, re_pass, phone;
-	/*
-	 * public void sleepInSecond(long timeoutInSecond) { try {
-	 * Thread.sleep(timeoutInSecond * 1000); } catch (InterruptedException e) {
-	 * e.printStackTrace(); }
+/*
+	public void sleepInSecond(long timeoutInSecond) { try {
+	 hread.sleep(timeoutInSecond * 1000); } catch (InterruptedException e) {
+	 e.printStackTrace(); }
 	 */
 	By insertname = By.xpath("//input[@id='txtFirstname']"); // technical 01
 	By insertemail = By.xpath("//div[@class='field']/input[@name='txtEmail']"); // technical 02 from patent
@@ -27,10 +27,10 @@ public class Topic_Xpath_Technical_01 {
 
 	@BeforeClass
 	public void beforeClass() {
-		
-		//Gecko Driver
-		System.setProperty("webdriver.gecko.driver",".\\BrowserDriver\\geckodriver.exe");
-		
+
+		// Gecko Driver
+		System.setProperty("webdriver.gecko.driver", ".\\BrowserDriver\\geckodriver.exe");
+
 		driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
@@ -163,11 +163,4 @@ public class Topic_Xpath_Technical_01 {
 		driver.quit();
 	}
 
-
-	}
-
-	
-
-	
-
-
+}
