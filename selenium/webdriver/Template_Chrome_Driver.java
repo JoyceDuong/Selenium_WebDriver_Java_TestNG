@@ -1,12 +1,16 @@
 package webdriver;
 
 import org.testng.annotations.Test;
+
 import org.testng.annotations.BeforeClass;
 
 import java.util.concurrent.TimeUnit;
-
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.Color;
+import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 
 public class Template_Chrome_Driver {
@@ -14,6 +18,7 @@ public class Template_Chrome_Driver {
 
 	@Test
 	public void TC_01() {
+		
 	}
 
 	@BeforeClass
@@ -24,7 +29,7 @@ public class Template_Chrome_Driver {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		driver.get("https://alada.vn/tai-khoan/dang-ky.html");
+		driver.get("https://www.fahasa.com/customer/account/create");
 	}
 
 	@AfterClass

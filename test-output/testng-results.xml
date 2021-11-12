@@ -1,33 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-11-09T09:51:24Z" name="Default suite" finished-at="2021-11-09T09:51:40Z" duration-ms="16493">
+  <suite started-at="2021-11-12T09:38:57Z" name="Default suite" finished-at="2021-11-12T09:39:10Z" duration-ms="13269">
     <groups>
     </groups>
-    <test started-at="2021-11-09T09:51:24Z" name="Default test" finished-at="2021-11-09T09:51:40Z" duration-ms="16493">
-      <class name="webdriver.Topic_Custom_Dropdown">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:webdriver.Topic_Custom_Dropdown@489115ef]" started-at="2021-11-09T09:51:24Z" name="beforeClass" finished-at="2021-11-09T09:51:27Z" duration-ms="3517" status="PASS">
+    <test started-at="2021-11-12T09:38:57Z" name="Default test" finished-at="2021-11-12T09:39:10Z" duration-ms="13269">
+      <class name="webdriver.Topic_Default_Button_Checkbox">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:webdriver.Topic_Default_Button_Checkbox@7eac9008]" started-at="2021-11-12T09:38:57Z" name="beforeClass" finished-at="2021-11-12T09:39:00Z" duration-ms="3145" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="TC01_JQuery()[pri:0, instance:webdriver.Topic_Custom_Dropdown@489115ef]" started-at="2021-11-09T09:51:27Z" name="TC01_JQuery" finished-at="2021-11-09T09:51:40Z" duration-ms="12963" status="PASS">
+        <test-method signature="TC01_Default_Checkbox()[pri:0, instance:webdriver.Topic_Default_Button_Checkbox@7eac9008]" started-at="2021-11-12T09:39:00Z" name="TC01_Default_Checkbox" finished-at="2021-11-12T09:39:10Z" duration-ms="10111" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC01_JQuery -->
-        <test-method signature="TC02_ReactJS()[pri:0, instance:webdriver.Topic_Custom_Dropdown@489115ef]" started-at="2021-11-09T09:51:40Z" name="TC02_ReactJS" finished-at="2021-11-09T09:51:40Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC02_ReactJS -->
-        <test-method signature="TC03_VueJS()[pri:0, instance:webdriver.Topic_Custom_Dropdown@489115ef]" started-at="2021-11-09T09:51:40Z" name="TC03_VueJS" finished-at="2021-11-09T09:51:40Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC03_VueJS -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:webdriver.Topic_Custom_Dropdown@489115ef]" started-at="2021-11-09T09:51:40Z" name="afterClass" finished-at="2021-11-09T09:51:40Z" duration-ms="0" status="PASS">
+        </test-method> <!-- TC01_Default_Checkbox -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:webdriver.Topic_Default_Button_Checkbox@7eac9008]" started-at="2021-11-12T09:39:10Z" name="afterClass" finished-at="2021-11-12T09:39:10Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- webdriver.Topic_Custom_Dropdown -->
+      </class> <!-- webdriver.Topic_Default_Button_Checkbox -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
