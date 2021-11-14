@@ -16,11 +16,7 @@ import org.testng.annotations.AfterClass;
 public class Template_Chrome_Driver {
 	WebDriver driver;
 
-	@Test
-	public void TC_01() {
-		
-	}
-
+	
 	@BeforeClass
 	public void beforeClass() {
 
@@ -31,6 +27,13 @@ public class Template_Chrome_Driver {
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.get("https://www.fahasa.com/customer/account/create");
 	}
+	
+	@Test
+	public void TC_01() {
+		
+	}
+
+
 
 	@AfterClass
 	public void afterClass() {

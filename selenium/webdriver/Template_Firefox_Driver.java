@@ -14,10 +14,6 @@ import org.testng.annotations.Test;
 public class Template_Firefox_Driver {
 	WebDriver driver;
 
-	@Test
-  public void TC01_Name() {
-  }
-
 	@BeforeClass
 	public void beforeClass() {
 		// Gecko Driver
@@ -29,6 +25,12 @@ public class Template_Firefox_Driver {
 		driver.get("");
 
 	}
+	
+	@Test
+  public void TC01_Name() {
+  }
+
+
 
 	@AfterClass
 	public void afterClass() {

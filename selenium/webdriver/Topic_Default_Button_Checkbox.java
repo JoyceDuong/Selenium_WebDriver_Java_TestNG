@@ -92,6 +92,16 @@ public class Topic_Default_Button_Checkbox {
 		Assert.assertTrue(petrol_147KW.isSelected());
 
 	}
+	public void checkToElement(By by) {
+		if (!driver.findElement(by).isSelected()) {
+			driver.findElement(by).click();
+		}
+	}
+	public void uncheckToElement(By by) {
+		if (driver.findElement(by).isSelected()) {
+			driver.findElement(by).click();
+		}
+	}
 
 	@BeforeClass
 	public void beforeClass() {
