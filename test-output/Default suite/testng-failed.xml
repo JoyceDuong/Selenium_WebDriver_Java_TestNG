@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="webdriver.Topic_User_Interaction_1">
+      <class name="webdriver.Topic_Popup">
         <methods>
-          <include name="afterClass"/>
           <include name="beforeClass"/>
-          <include name="TC_01_Hover"/>
+          <include name="TC03_Random_Popup_Not_In_DOM"/>
+          <include name="afterClass"/>
         </methods>
-      </class> <!-- webdriver.Topic_User_Interaction_1 -->
+      </class> <!-- webdriver.Topic_Popup -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

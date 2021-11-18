@@ -33,7 +33,13 @@ public class Template_Chrome_Driver {
 		
 	}
 
-
+	public void sleepInSecond(long timeoutInSecond) {
+		try {
+			Thread.sleep(timeoutInSecond * 1000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+	}
 
 	@AfterClass
 	public void afterClass() {

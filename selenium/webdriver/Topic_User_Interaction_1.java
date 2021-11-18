@@ -2,6 +2,8 @@ package webdriver;
 
 import org.testng.annotations.Test;
 
+import jdk.internal.org.jline.utils.Colors;
+
 import org.testng.annotations.BeforeClass;
 
 import java.util.List;
@@ -79,7 +81,7 @@ public class Topic_User_Interaction_1 {
 
 	}
 	
-	public void TC_03_Click_And_Hold_Random() {
+	public void TC_04_Click_And_Hold_Random() {
 
 		driver.get("https://automationfc.github.io/jquery-selectable/");
 
@@ -94,8 +96,8 @@ public class Topic_User_Interaction_1 {
 
 	}
 
-	@Test
-	public void TC_03_Double_Click() {
+
+	public void TC_05_Double_Click() {
 
 		driver.get("https://automationfc.github.io/basic-form/index.html");
 		// sẽ move tới element trước khi double click
@@ -105,8 +107,32 @@ public class Topic_User_Interaction_1 {
 		
 		action.doubleClick(driver.findElement(By.xpath("//button[text()='Double click me']"))).perform();
 		
-		
+	}
 
+	public void TC_06_Double_Click() {
+		driver.get("http://swisnl.github.io/jQuery-contextMenu/demo.html");
+		
+		action.contextClick(driver.findElement(By.xpath("//span[text()='right click me']"))).perform();
+		
+		action.moveToElement(driver.findElement(By.cssSelector("li.context-menu-icon-quit"))).perform();
+		
+		// verify visible and hover
+		
+		Assert.assertTrue(driver.findElement(By.cssSelector("li.context-menu-icon-quit.context-menu-visible.context-menu-hover")).isDisplayed());
+		
+	}
+	@Test
+	public void TC_07_Drag_And_Drop_HTML4() {
+		driver.get("https://automationfc.github.io/kendo-drag-drop/");
+		
+		action.dragAndDrop(driver.findElement(By.cssSelector("div.demo-section>div#draggable")), driver.findElement(By.cssSelector("div.demo-section>div#droptarget"))).perform();
+		
+		Assert.assertEquals(driver.findElement(By.cssSelector("div.demo-section>div#droptarget")).getText(), "You did great!");
+		
+		
+		String backgroundColor = driver.findElement(By.cssSelector("div.demo-section>div#droptarget")).getCssValue("background-color");
+
+		Assert.assertEquals(Color.fromString(backgroundColor).asHex(), "#03a9f4");
 	}
 	@AfterClass
 	public void afterClass() {

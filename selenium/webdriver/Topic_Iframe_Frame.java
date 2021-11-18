@@ -11,7 +11,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class Template_Firefox_Driver {
+public class Topic_Iframe_Frame {
 	WebDriver driver;
 
 	@BeforeClass
@@ -27,7 +27,38 @@ public class Template_Firefox_Driver {
 	}
 	
 	@Test
-  public void TC01_Name() {
+	public void TC01_Iframe() {
+		driver.get("https://kyna.vn/");
+		
+		// switch to iframe
+		driver.switchTo().frame(driver.findElement(By.xpath("//div[@class='fanpage ']//iframe")));
+		
+		// validate text in iframe
+		String pageTitle = driver.findElement(By.xpath("//div[@class='lfloat']//a")).getText();
+		System.out.println(pageTitle);
+		
+		// back to patent page
+		driver.switchTo().defaultContent();
+		
+		// Validate đăng nhập button is enable
+		
+		Assert.assertTrue(driver.findElement(By.xpath("//a[text()='Đăng nhập']")).isEnabled());
+		
+		
+	}
+	
+	
+  public void TC02_Frame() {
+	  driver.get("https://netbanking.hdfcbank.com/netbanking/");
+	  
+	  // thẻ input nằm trong frame
+	  // cần switch vào frame để sendheys
+	  
+	  driver.switchTo().frame(driver.findElement(By.name("login_page")));
+	  
+	  driver.findElement(By.xpath("//input[@name='fldLoginUserId']")).sendKeys("Automation");
+	  
+		
   }
 
 	public void sleepInSecond(long timeoutInSecond) {
