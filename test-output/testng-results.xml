@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-11-18T09:47:40Z" name="Default suite" finished-at="2021-11-18T09:47:52Z" duration-ms="12126">
+  <suite name="Default suite" duration-ms="9576" started-at="2021-11-22T16:26:15Z" finished-at="2021-11-22T16:26:24Z">
     <groups>
     </groups>
-    <test started-at="2021-11-18T09:47:40Z" name="Default test" finished-at="2021-11-18T09:47:52Z" duration-ms="12126">
-      <class name="webdriver.Topic_Iframe_Frame">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:webdriver.Topic_Iframe_Frame@4116aac9]" started-at="2021-11-18T09:47:40Z" name="beforeClass" finished-at="2021-11-18T09:47:44Z" duration-ms="3580" status="PASS">
+    <test name="Default test" duration-ms="9576" started-at="2021-11-22T16:26:15Z" finished-at="2021-11-22T16:26:24Z">
+      <class name="webdriver.Topic_Java_Executor">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:webdriver.Topic_Java_Executor@100fc185]" name="beforeClass" is-config="true" duration-ms="3346" started-at="2021-11-22T16:26:15Z" finished-at="2021-11-22T16:26:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="TC01_Iframe()[pri:0, instance:webdriver.Topic_Iframe_Frame@4116aac9]" started-at="2021-11-18T09:47:44Z" name="TC01_Iframe" finished-at="2021-11-18T09:47:50Z" duration-ms="5660" status="PASS">
+        <test-method status="PASS" signature="TC_01_HTML5_Validate_Message()[pri:0, instance:webdriver.Topic_Java_Executor@100fc185]" name="TC_01_HTML5_Validate_Message" duration-ms="5236" started-at="2021-11-22T16:26:18Z" finished-at="2021-11-22T16:26:23Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC01_Iframe -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:webdriver.Topic_Iframe_Frame@4116aac9]" started-at="2021-11-18T09:47:50Z" name="afterClass" finished-at="2021-11-18T09:47:52Z" duration-ms="2877" status="PASS">
+        </test-method> <!-- TC_01_HTML5_Validate_Message -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:webdriver.Topic_Java_Executor@100fc185]" name="afterClass" is-config="true" duration-ms="970" started-at="2021-11-22T16:26:23Z" finished-at="2021-11-22T16:26:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- webdriver.Topic_Iframe_Frame -->
+      </class> <!-- webdriver.Topic_Java_Executor -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
