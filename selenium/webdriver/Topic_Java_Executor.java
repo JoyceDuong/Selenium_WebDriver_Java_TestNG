@@ -15,17 +15,21 @@ import org.testng.annotations.Test;
 public class Topic_Java_Executor {
 	WebDriver driver;
 	JavascriptExecutor jsExecutor;
+	String projectPath = System.getProperty("user.dir");
 
 	@BeforeClass
 	public void beforeClass() {
 
 		// Chrome Driver
-		System.setProperty("webdriver.chrome.driver", ".\\BrowserDriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver",projectPath + "\\BrowserDriver\\chromedriver.exe");
 		driver = new ChromeDriver();
 
 		jsExecutor = (JavascriptExecutor) driver;
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		
+		// jsExcutor ko co Wait
+		// Phải sleep cứng nếu cần
 
 	}
 
