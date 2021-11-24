@@ -13,7 +13,7 @@ import org.openqa.selenium.support.Color;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 
-public class Template_Chrome_Driver {
+public class Topic_WebDriver_Wait_01 {
 	WebDriver driver;
 	String projectPath = System.getProperty("user.dir");
 
@@ -30,7 +30,28 @@ public class Template_Chrome_Driver {
 	}
 	
 	@Test
-	public void TC_01() {
+	public void TC_01_Visible() {
+		
+		// Hiển thì trên UI và Có trong HTML/DOM
+		
+	}
+	@Test
+	public void TC_02_Invisible() {
+		
+		// điều kiện là ko hiển thị trên UI
+		
+		// Case 1: Ko hiển thị và có trong DOM
+		// Case 2 : ko hiển thị và ko có trong DOM
+		
+		// trong case 2 : do ko có trong DOM nên sẽ mất thời gian của implicit wait để tìm element nên sẽ mất tg lâu hơn
+		// Bản chất wait nào cũng cần find element
+	}
+	@Test
+	public void TC_03_Presence() {
+		
+	}
+	@Test
+	public void TC_04_Staleness() {
 		
 	}
 

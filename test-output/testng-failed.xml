@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="webdriver.Topic_Popup">
+      <class name="webdriver.Topic_Upload_File_02">
         <methods>
-          <include name="beforeClass"/>
-          <include name="TC03_Random_Popup_Not_In_DOM"/>
           <include name="afterClass"/>
+          <include name="TC_01_AutoIT_Single_File"/>
+          <include name="beforeClass"/>
         </methods>
-      </class> <!-- webdriver.Topic_Popup -->
+      </class> <!-- webdriver.Topic_Upload_File_02 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
