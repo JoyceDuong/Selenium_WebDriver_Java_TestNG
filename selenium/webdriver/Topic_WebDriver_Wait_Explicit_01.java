@@ -13,7 +13,7 @@ import org.openqa.selenium.support.Color;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 
-public class Topic_WebDriver_Wait_01 {
+public class Topic_WebDriver_Wait_Explicit_01 {
 	WebDriver driver;
 	String projectPath = System.getProperty("user.dir");
 
@@ -48,11 +48,14 @@ public class Topic_WebDriver_Wait_01 {
 	}
 	@Test
 	public void TC_03_Presence() {
+		// Chỉ cần có trong DOM
+		// CÓ hiển thị hoặc không
 		
 	}
 	@Test
 	public void TC_04_Staleness() {
-		
+		// Element bị update trong DOM nên sau khi update sẽ ko còn là element trước
+		// có thể coi là 1 trường hợp của invisible
 	}
 
 	public void sleepInSecond(long timeoutInSecond) {
